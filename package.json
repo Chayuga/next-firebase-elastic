@@ -3,12 +3,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node ./scripts/Elasticsearch.mjs",
     "start": "next start"
   },
   "dependencies": {
+    "@elastic/react-search-ui": "^1.8.0",
+    "@elastic/react-search-ui-views": "^1.8.0",
+    "@elastic/search-ui-app-search-connector": "^1.8.0",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "firebase": "^9.5.0",
     "next": "latest",
+    "next-auth": "4.0.0-beta.7",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^4.0.1",
+    "recoil": "^0.5.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
