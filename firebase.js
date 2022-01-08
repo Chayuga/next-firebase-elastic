@@ -8,12 +8,12 @@ import "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCdiZIZhlEFLPB0JwqEqhkY5OzvLuVIJbU",
-  authDomain: "react-elastic-71ebb.firebaseapp.com",
-  projectId: "react-elastic-71ebb",
-  storageBucket: "react-elastic-71ebb.appspot.com",
-  messagingSenderId: "182980408470",
-  appId: "1:182980408470:web:b615e3c15e4bdd649e7eb7",
+  apiKey: <Replace Me />,
+  authDomain: <Replace Me />,
+  projectId: <Replace Me />,
+  storageBucket: <Replace Me />,
+  messagingSenderId: <Replace Me />,
+  appId: <Replace Me />,
 };
 
 // Initialize Firebase
